@@ -1,0 +1,9 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "de33976"
+hash = "8a7c58225816a163a6e8730c0adafbc8"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-macchiato"
+rev = "ca61658"
+hash = "2f60298d6c26b6d388c8091a9389fa8f"
