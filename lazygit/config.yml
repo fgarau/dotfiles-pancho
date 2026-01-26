@@ -1,0 +1,5 @@
+# to get all available options
+#    lazygit -c
+
+gui:
+   showFileTree: false
