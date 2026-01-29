@@ -1,13 +1,7 @@
+# -- ghostty customizaciones al final de este archivo
+# -- FG - Jan 2026
+# -- -- -- --
 # This is the configuration file for Ghostty.
-#
-# This template file has been automatically created at the following
-# path since Ghostty couldn't find any existing config files on your system:
-#
-#   /Users/fgarau/Library/Application Support/com.mitchellh.ghostty/config
-#
-# The template does not set any default options, since Ghostty ships
-# with sensible defaults for all options. Users should only need to set
-# options that they want to change from the default.
 #
 # Run `ghostty +show-config --default --docs` to view a list of
 # all available config options and their default values.
@@ -42,12 +36,29 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-# font-family="Monaco"
-# theme = Catppuccin Macchiato
+split-divider-color = #428E9D
+unfocused-split-fill = #1a1823
+
+theme = Catppuccin Macchiato
+# theme = Catppuccin Frappe
 # theme = Catppuccin Mocha
-font-family = "JetBrainsMono Nerd Font Mono"
-font-size = 15
+# theme = TokyoNight Storm
+
+# font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "JetBrainsMono NFM Light"
+
+font-size = 16
 copy-on-select = clipboard
-keybind = shift+enter=text:\\
-# keybind = alt+super+left=goto_tab:previous
-# keybind = alt+super+right=goto_tab:next
+keybind = shift+enter=text:\x1b\r
+
+# alt+h = minimize windows (from macos)
+# super+alt+h = minimize others (from macos)
+
+keybind = super+alt+arrow_right=next_tab
+keybind = super+alt+arrow_left=previous_tab
+keybind = alt+arrow_up=goto_split:up
+keybind = alt+arrow_right=goto_split:right
+keybind = alt+arrow_left=goto_split:left
+keybind = alt+arrow_down=goto_split:down
+
+window-save-state = always
