@@ -47,18 +47,27 @@ theme = Catppuccin Macchiato
 # font-family = "JetBrainsMono Nerd Font Mono"
 font-family = "JetBrainsMono NFM Light"
 
-font-size = 16
+font-size = 15
 copy-on-select = clipboard
 keybind = shift+enter=text:\x1b\r
-
-# alt+h = minimize windows (from macos)
-# super+alt+h = minimize others (from macos)
-
+# emulate the bindings used in chrome
+# zed and vscode to switch between tabs
 keybind = super+alt+arrow_right=next_tab
 keybind = super+alt+arrow_left=previous_tab
-keybind = alt+arrow_up=goto_split:up
-keybind = alt+arrow_right=goto_split:right
-keybind = alt+arrow_left=goto_split:left
-keybind = alt+arrow_down=goto_split:down
+
+# super+alt+arrow (cmd-alt-arrow) -- move around splits
+keybind = super+alt+arrow_up=goto_split:next
+keybind = super+alt+arrow_down=goto_split:previous
+# keybind = super+bracket_left=goto_split:previous
+# keybind = super+bracket_right=goto_split:next
+
+# split shortcuts
+# since cmd+shift+enter is used to zoom,
+#    super+shift+enter=toggle_split_zoom
+# use similar combinations to move around the splits
+# keybind = super+shift+arrow_right=goto_split:right
+# keybind = super+shift+arrow_left=goto_split:left
+# keybind = super+shift+arrow_down=goto_split:down
+# keybind = super+shift+arrow_up=goto_split:up
 
 window-save-state = always
