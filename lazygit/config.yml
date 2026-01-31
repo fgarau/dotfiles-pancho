@@ -2,7 +2,7 @@
 #    lazygit -c
 
 gui:
-   showFileTree: false
+   # showFileTree: false
    # projects/lazygit-catpuccin/themes/mocha/blue.yml
    theme:
      activeBorderColor:

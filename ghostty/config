@@ -44,10 +44,13 @@ theme = Catppuccin Macchiato
 # theme = Catppuccin Mocha
 # theme = TokyoNight Storm
 
-# font-family = "JetBrainsMono Nerd Font Mono"
-font-family = "JetBrainsMono NFM Light"
+font-size = 16
+font-family = JetBrainsMonoNL NFL
+font-family-bold = JetBrainsMonoNL NFM Semibold
+font-family-italic = JetBrainsMonoNL NFM Italic
+font-family-bold-italic = JetBrainsMonoNL NFM SemiBold Italic
+# ghostty +show-config  | grep -i font-family
 
-font-size = 15
 copy-on-select = clipboard
 keybind = shift+enter=text:\x1b\r
 # emulate the bindings used in chrome
