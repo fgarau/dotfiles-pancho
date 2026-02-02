@@ -1,6 +1,12 @@
 {
   "format_on_save": "off",
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 15,
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "terminal": { "font_size": 14.5,
+                "copy_on_select": true },
+  "agent_buffer_font_size": 15.0,
+  "agent_ui_font_size": 14.0,
   "file_types": {
     "Shell Script": ["config", ".envrc", "*.conf", "*.theme"],
   },
@@ -42,9 +48,6 @@
   "features": { "edit_prediction_provider": "zed" },
   "edit_predictions": { "mode": "subtle" },
   "vim_mode": true,
-  // "ui_font_size": 14,
-  // "buffer_font_size": 14,
-  "terminal": { "copy_on_select": true },
   "soft_wrap": "none",
   "context_servers": {
     "MCP_DOCKER": {

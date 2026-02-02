@@ -45,11 +45,12 @@ theme = Catppuccin Macchiato
 # theme = TokyoNight Storm
 
 font-size = 16
-font-family = JetBrainsMonoNL NFL
+font-family = JetBrainsMonoNL NFL Light
 font-family-bold = JetBrainsMonoNL NFM Semibold
 font-family-italic = JetBrainsMonoNL NFM Italic
 font-family-bold-italic = JetBrainsMonoNL NFM SemiBold Italic
 # ghostty +show-config  | grep -i font-family
+# ghostty +list-fonts | grep JetBrainsMono | grep NF
 
 copy-on-select = clipboard
 keybind = shift+enter=text:\x1b\r
